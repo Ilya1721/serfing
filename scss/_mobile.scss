@@ -1,0 +1,73 @@
+@media(max-width: 768px) {
+  body {
+    height: 100%;
+    margin: 10px 20px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    .logo {
+      padding-right: 10px;
+    }
+    .nav-links {
+      display: flex;
+      a {
+        text-decoration: none;
+        padding-right: 10px;
+        color: $link-color;
+      }
+    }
+  }
+
+  main {
+    .main-section {
+      display: block;
+    }
+    .main-text {
+      text-align: justify;
+      width: 250px;
+      margin: auto;
+      font-size: 0.8rem;
+      color: $text-color;
+    }
+    .main-video {
+      img {
+        width: 300px;
+      }
+    }
+  }
+
+  .instructors {
+    display: block;
+    text-align: center;
+    width: 300px;
+    .student-count {
+      margin-bottom: 25px;
+    }
+  }
+
+  .blog-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 100px;
+  }
+  .blogs {
+    display: block;
+    width: 350px;
+    img {
+      width: 300px;
+    }
+    .text-block, .text-block-reverse {
+      padding-left: 0;
+      padding-top: 0;
+    }
+    .blog-button {
+      margin-bottom: 25px;
+    }
+  }
+}
