@@ -1,9 +1,6 @@
 @media(max-width: 768px) {
   body {
-    height: 100%;
     margin: 10px 20px;
-    font-family: 'Lato', sans-serif;
-    line-height: 1.5;
   }
 
   header nav {
@@ -17,9 +14,7 @@
     .nav-links {
       display: flex;
       a {
-        text-decoration: none;
         padding-right: 10px;
-        color: $link-color;
       }
     }
   }

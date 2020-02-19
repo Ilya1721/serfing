@@ -149,10 +149,7 @@ footer {
 
 @media (max-width: 768px) {
   body {
-    height: 100%;
-    margin: 10px 20px;
-    font-family: 'Lato', sans-serif;
-    line-height: 1.5; }
+    margin: 10px 20px; }
   header nav {
     display: flex;
     justify-content: space-between;
@@ -162,9 +159,7 @@ footer {
     header nav .nav-links {
       display: flex; }
       header nav .nav-links a {
-        text-decoration: none;
-        padding-right: 10px;
-        color: #262626; }
+        padding-right: 10px; }
   main .main-section {
     display: block; }
   main .main-text {
